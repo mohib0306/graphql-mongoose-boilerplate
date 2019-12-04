@@ -1,0 +1,8 @@
+node_modules/
+bin/
+**/npm-debug.log
+**/yarn-debug.log
+**/yarn-error.log
+.DS_STORE
+.tmp
+.env

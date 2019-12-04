@@ -1,0 +1,49 @@
+{
+  "name": "graphql-mongoose-boilerplate",
+  "version": "0.0.1",
+  "description": "GraphQL-Mongoose-Boilerplate",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch src/ -r @babel/register src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohib0306/graphql-mongoose-boilerplate.git"
+  },
+  "keywords": [
+    "graphql"
+  ],
+  "author": "Mohibullah Amin Wardak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohib0306/graphql-mongoose-boilerplate/issues"
+  },
+  "homepage": "https://github.com/mohib0306/graphql-mongoose-boilerplate#readme",
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": true
+          }
+        }
+      ]
+    ]
+  },
+  "dependencies": {
+    "@babel/register": "^7.6.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.7",
+    "mongoose": "^5.7.13"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "babel-loader": "^8.0.6",
+    "nodemon": "^1.19.2"
+  }
+}
